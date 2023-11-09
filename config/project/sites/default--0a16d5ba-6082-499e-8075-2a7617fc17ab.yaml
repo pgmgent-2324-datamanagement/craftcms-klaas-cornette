@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: nl-BE
+name: datamanegement_opdracht_2
+primary: true
+siteGroup: 93b34ad8-5fd7-46be-9b24-d6755c6e7dbb # datamanegement_opdracht_2
+sortOrder: 1

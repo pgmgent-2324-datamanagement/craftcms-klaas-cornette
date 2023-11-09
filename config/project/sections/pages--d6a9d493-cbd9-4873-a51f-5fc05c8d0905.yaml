@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: pages
+propagationMethod: all
+siteSettings:
+  0a16d5ba-6082-499e-8075-2a7617fc17ab: # datamanegement_opdracht_2
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_entry
+    uriFormat: 'pages/{slug}'
+structure:
+  maxLevels: 2
+  uid: 08bbc23e-65f7-47a7-91cb-8628e13cad78
+type: structure

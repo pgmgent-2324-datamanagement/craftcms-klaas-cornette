@@ -1,0 +1,9 @@
+<a href="{{ entry.url }}" class="entry-link">
+    <div class="entry-card">
+        <h2 class="entry-title">{{ entry.title }}</h2>
+        <p class="entry-body">{{ entry.body }}</p>
+        {% for category in entry.category.all %}
+            <p class="entry-category">{{ category.title }}</p>
+        {% endfor %}
+    </div>
+</a>

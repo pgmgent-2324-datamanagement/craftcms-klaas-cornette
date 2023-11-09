@@ -1,0 +1,118 @@
+fieldLayouts:
+  a982b0be-cc13-45cb-83d3-39556e2229d1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 73869bf6-52c7-4807-ac69-ced8b309e8af
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8f09deb7-05a1-431c-aaea-3a22550cf797 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 82be3d89-cfb3-45c1-8f33-3fc6a4a919e9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: addacd84-8d4d-4e12-859e-67ac7e39b7e1 # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b90adf4b-2426-4425-b19a-05308aacb0f7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 45b1f45d-9c98-43a0-9463-525a8cb49314 # Locatie
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d12acbff-a026-403f-b3c7-b82b8bf4b482
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b050d8c-30c7-455a-97d9-cb847f497cbc # Datum
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 63d39163-9a66-4d19-835f-7b11c2e839a3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2293d9c4-d381-45b7-af4f-bbc21d8c3eac # Prijs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 271a550f-0f68-499e-a6fd-cd10fe939d37
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c438c282-c162-4bef-a759-ef318b8eb722 # Categorie
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9cd0f3e2-5234-43ab-b857-a2870cdcb83a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: bf0e5e3f-1c27-4f40-bed3-7beabdd2a914
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Standaard
+section: 5fccd607-98a2-442c-aa71-38127ad9c14a # Feesten
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

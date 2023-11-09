@@ -1,0 +1,14 @@
+{% extends "_layouts/_base.twig" %}
+
+{% block content %}
+    <div class="party-details">
+        <h1 class="party-title">{{entry.title}}</h1>
+        <img src="{{ entry.image.one().url }}" alt="{{entry.image.one().alt}}" class="party-image">
+        <p class="party-description">{{entry.body}}</p>
+        <div class="party-info">
+            <p class="party-location">{{ entry.location }}</p>
+            <p class="party-date">{{ entry.date }}</p>
+            <p class="party-price">{{ entry.price }}</p>
+        </div>
+    </div>
+{% endblock %}

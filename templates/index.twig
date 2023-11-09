@@ -1,0 +1,23 @@
+{% extends "_layouts/_base.twig" %}
+
+{% set entryQuery = craft.entries()
+.section('party')
+.orderBy('postDate desc')
+.limit(5)
+%}
+
+{% set party = entryQuery.all() %}
+
+    
+
+{% block content %}
+    <h1>Welkom bij party planner</h1>
+    <p>Dit zijn de nieuwste feestjes</p>
+    <ul class="party-list">
+    {% for entry in party %}
+        <li class="party-item">
+            <a href="{{entry.url}}" class="party-link">{{ entry.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}

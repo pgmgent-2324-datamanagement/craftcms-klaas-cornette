@@ -1,0 +1,12 @@
+{% set entryQuery = craft.entries().section('pages') %}
+
+{% set pages = entryQuery.all() %}
+
+<nav class="bg-gray-800 p-4">
+    <a href="/" class="text-white hover:text-gray-300">Home</a>
+    <a href="/party" class="text-white hover:text-gray-300">Feestjes</a>
+    
+    {% for page in pages %}
+        <a href="{{ page.url }}" class="text-white hover:text-gray-300">{{ page.navigation_name ?? page.title }}</a>
+    {% endfor %}
+</nav>

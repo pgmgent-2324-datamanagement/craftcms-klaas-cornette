@@ -1,0 +1,32 @@
+{% extends "_layouts/_base.twig" %}
+
+{% set entryQuery = craft.entries()
+    .section('party') 
+%}
+{% set party = entryQuery.all() %}
+
+{% set categories = craft.categories()
+    .group('categories')
+    .all() 
+%}
+
+{% if category is defined %}
+    {% set entryQuery = entryQuery.relatedTo(category) %}
+{% endif %}
+
+{% set party = entryQuery.all() %}
+
+{% block content %}
+    <h1 class="party-heading">Alle komende feestjes</h1>
+    <div class="categories-list">
+        {% for category in categories %}
+            <a href="{{category.url}}" class="category-link">{{category.title}}</a>
+        {% endfor %}
+    </div>
+
+    <div class="party-list">
+        {% for entry in party %}
+            {% include "party/_partials/_party_item.twig" %}
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,82 @@
+dateModified: 1699535691
+email:
+  fromEmail: klaas.cornette@student.arteveldehs.be
+  fromName: datamanegement_opdracht_2
+  replyToEmail: klaas.cornette@student.arteveldehs.be
+  template: null
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: /var/www/html/web/uploads
+    type: craft\fs\Local
+    url: /uploads
+meta:
+  __names__:
+    0a16d5ba-6082-499e-8075-2a7617fc17ab: datamanegement_opdracht_2 # datamanegement_opdracht_2
+    3e14ea0b-7e1e-4eb6-adb2-9473f1d51bf1: images # images
+    5dfb1976-75ce-430c-991e-75adf9d998ff: Simple # Simple
+    5fccd607-98a2-442c-aa71-38127ad9c14a: Feesten # Feesten
+    8f09deb7-05a1-431c-aaea-3a22550cf797: Image # Image
+    9b050d8c-30c7-455a-97d9-cb847f497cbc: Datum # Datum
+    39c32fdb-5dec-4d49-a2f6-add17bb5a868: Home # Home
+    45b1f45d-9c98-43a0-9463-525a8cb49314: Locatie # Locatie
+    47f24654-52ec-4b5b-b117-f5683c0da259: 'Navigatie naam' # Navigatie naam
+    58c7b687-136f-4b16-9ec9-97471b731221: 'Feest categorieën' # Feest categorieën
+    93b34ad8-5fd7-46be-9b24-d6755c6e7dbb: datamanegement_opdracht_2 # datamanegement_opdracht_2
+    2293d9c4-d381-45b7-af4f-bbc21d8c3eac: Prijs # Prijs
+    a3b6b781-989a-4378-be1b-dccf0c85effc: Standaard # Standaard
+    addacd84-8d4d-4e12-859e-67ac7e39b7e1: Content # Content
+    ba98737c-e28e-49cd-a30b-15066298b2d1: Home # Home
+    c3c90298-7afb-4393-888c-4bdc2a597101: Common # Common
+    c438c282-c162-4bef-a759-ef318b8eb722: Categorie # Categorie
+    cd98c1fb-2ecb-4418-a872-98d4e06d8cd1: Standaard # Standaard
+    d6a9d493-cbd9-4873-a51f-5fc05c8d0905: pages # pages
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: '1'
+      allowedMessageFields: null
+      prependSender: klaas
+      prependSubject: 'New message from datamanegement_opdracht_2'
+      successFlashMessage: 'Jouw bericht is verstuurd.'
+      toEmail: klaas.cornette@student.arteveldehs.be
+  wheelform:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      cp_label: Forms
+      disabled_fields: ''
+      from_email: klaas.cornette@gmail.com
+      from_name: klaas
+      recaptcha_min_score: '0.5'
+      recaptcha_public: ''
+      recaptcha_secret: ''
+      recaptcha_version: '2'
+      success_message: 'Bedankt! We bekijken uw inzending zo spoedig mogelijk.'
+      volume_id: ''
+system:
+  edition: solo
+  live: true
+  name: datamanegement_opdracht_2
+  retryDuration: null
+  schemaVersion: 4.5.3.0
+  timeZone: Europe/Brussels
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

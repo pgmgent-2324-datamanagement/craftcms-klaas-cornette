@@ -1,0 +1,234 @@
+/* Reset some default margin and padding */
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.brand {
+    font-size: 1.5rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+/* Optional: Style the links in your navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Style the form container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+h3 {
+    margin-top: 10px;
+}
+
+/* Style form inputs and textareas */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style form submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Style form error messages */
+.errors {
+    color: red;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+/* Optional: Style the form on small screens */
+@media (max-width: 600px) {
+    form {
+        max-width: 100%;
+    }
+}
+
+.party-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style each party item */
+.party-item {
+    margin-bottom: 10px;
+}
+
+/* Style the party item link */
+.party-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Change link color on hover */
+.party-link:hover {
+    color: #007bff; /* Change this to your preferred hover color */
+}
+
+.party-heading {
+    font-size: 24px;
+    color: #333;
+}
+
+.categories-list {
+    margin-top: 20px;
+}
+
+.category-link {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.category-link:hover {
+    color: #333;
+}
+
+.party-list {
+    margin-top: 20px;
+}
+
+.party-details {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.party-title {
+    font-size: 32px;
+    color: #333;
+}
+
+.party-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.party-description {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.party-info {
+    margin-top: 20px;
+}
+
+.party-location,
+.party-date,
+.party-price {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.entry-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.entry-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.entry-link:hover .entry-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.entry-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.entry-body {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.entry-category {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+
+
+

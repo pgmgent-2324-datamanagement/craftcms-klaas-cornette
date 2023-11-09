@@ -1,0 +1,19 @@
+columnSuffix: fdjzvxgt
+contentColumnType: text
+fieldGroup: c3c90298-7afb-4393-888c-4bdc2a597101 # Common
+handle: location
+instructions: null
+name: Locatie
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

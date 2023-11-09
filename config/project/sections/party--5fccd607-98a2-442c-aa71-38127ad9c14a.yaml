@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: party
+name: Feesten
+propagationMethod: all
+siteSettings:
+  0a16d5ba-6082-499e-8075-2a7617fc17ab: # datamanegement_opdracht_2
+    enabledByDefault: true
+    hasUrls: true
+    template: party/_entry
+    uriFormat: 'feestjes/{slug}'
+type: channel
